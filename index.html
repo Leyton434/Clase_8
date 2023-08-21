@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horarios de atención</title>
+  <script src="https://kit.fontawesome.com/20e5eb7e3b.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+
+<body class="pagina1">
+  <header>
+  </header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./pages/inicio.html"><img id="logoz" src="./images/ak-47.png"></a>
+      <div class="navbar1 ">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="./pages/inicio.html">
+            <li class="lindex">Inicio</li>
+          </a>
+          <a class="nav-link" href="./pages/Integrantes.html">
+            <li class="lindex">Integrantes</li>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <article>
+      <section>
+        <div class="container">
+          <div class="card">
+            <div class="card-header">
+              <h2 class="text-center">Formulario Gamer</h2>
+            </div>
+            <div class="card-body">
+              <form>
+                <div>
+                  <h4>Datos de usuario:</h4>
+                  <div class="fondo-inicio">
+                    <div class="form-group">
+                      <label for="nombre">Nombre:</label>
+                      <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre"
+                        autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Correo electrónico:</label>
+                      <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico"
+                        autocomplete="off" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="tel">Número de teléfono</label>
+                      <input type="tel" class="form-control" id="phone" placeholder="Ingrese su número de teléfono">
+                    </div>
+                    <label>Seleccione su pais:</label>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                      <option selected>Paises</option>
+                      <option value="1">Argentina</option>
+                      <option value="2">Bolivia</option>
+                      <option value="3">Chile</option>
+                      <option value="4">Paraguay</option>
+                      <option value="5">Uruguay</option>
+                      <option value="6">Mexico</option>
+                    </select>
+                  </div>
+                </div>
+                <hr>
+                <div>
+                  <h4>Preguntas sobre juegos:</h4>
+                  <div class="form-group">
+                    <label class="radio-juegos">¿Qué tipo de juegos prefieres?</label>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons" id="lasmalditaspreguntas">
+                      <label for="opcion1" class="btn btn-secondary">
+                        <input class="tipojuego" type="radio" name="pregunta1" id="opcion1" autocomplete="off">
+                        RPG
+                      </label>
+                      <label for="opcion2" class="btn btn-secondary">
+                        <input class="tipojuego" type="radio" name="pregunta1" id="opcion2" autocomplete="off">
+                        FPS
+                      </label>
+                      <label for="opcion3" class="btn btn-secondary">
+                        <input class="tipojuego" type="radio" name="pregunta1" id="opcion3" autocomplete="off">
+                        Estrategia
+                      </label>
+                      <label for="opcion4" class="btn btn-secondary">
+                        <input class="tipojuego" type="radio" name="pregunta1" id="opcion4" autocomplete="off">
+                        Deportes
+                      </label>
+                      <label for="opcion5" class="btn btn-secondary">
+                        <input class="tipojuego" type="radio" name="pregunta1" id="opcion5" autocomplete="off">
+                        Simulación
+                      </label>
+                      <label for="opcion6" class="btn btn-secondary">
+                        <input class="tipojuego" type="radio" name="pregunta1" id="opcion6" autocomplete="off">
+                        Carreras
+                      </label>
+                      <label for="opcion7" class="btn btn-secondary">
+                        <input class="tipojuego" type="radio" name="pregunta1" id="opcion7" autocomplete="off">
+                        MOBA
+                      </label>
+                      <label for="opcion8" class="btn btn-secondary">
+                        <input class="tipojuego" type="radio" name="pregunta1" id="opcion8" autocomplete="off">
+                        VR
+                      </label>
+                    </div>
+
+                    <label class="radio-juegos">¿Cuales de los siguientes titulos le llama mas la atención?
+                      (puede seleccionar varios)</label>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="Fifa 23">
+                      <label class="form-check-label" for="Fifa 23">
+                        Fifa 23
+                      </label>
+                    </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="Doom">
+                      <label class="form-check-label" for="Doom">
+                        Doom
+                      </label>
+                    </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="Minecraft">
+                      <label class="form-check-label" for="Minecraft">
+                        Minecraft
+                      </label>
+                    </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="Rainbow Six Siege">
+                      <label class="form-check-label" for="Rainbow Six Siege">
+                        Rainbow Six Siege
+                      </label>
+                    </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="Skyrim">
+                      <label class="form-check-label" for="Skyrim">
+                        Skyrim
+                      </label>
+                    </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="Rocket League">
+                      <label class="form-check-label" for="Rocket League">
+                        Rocket League
+                      </label>
+                    </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="League of Legends">
+                      <label class="form-check-label" for="League of Legends">
+                        League of Legends
+                      </label>
+                    </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="Dying Light">
+                      <label class="form-check-label" for="Dying Light">
+                        Dying Light
+                      </label>
+                    </div>
+                    <label class="radio-juegos">¿En que año salió Grand Theft Auto: San Andreas?</label>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                        value="option1">
+                      <label class="form-check-label" for="inlineRadio1">2004</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="option2">
+                      <label class="form-check-label" for="inlineRadio2">2005</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                        value="option3">
+                      <label class="form-check-label" for="inlineRadio3">2006</label>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="radio-juegos">
+                  <label>¿Que le ha parecido este cuestionario?</label>
+                  <label for="comentarios" class="form-label">Aqui puede dejar un comentario:</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                <button button type="reset" class="btn btn-primary btn-block">Cancelar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="soyfooter">
+    <h4>Tambien puedes encontrar:</h4>
+    <h4>Intagram de Lil Yeicob:<a href="https://www.instagram.com/lilyeicob.mp3/"><i id="inst"
+          class="fa-brands fa-instagram"></i></a></h4>
+    <h4>Spotify de Lil Yeicob:<a href="https://open.spotify.com/intl-es/artist/27RTmCC2hH4ZWVUfjZBC0x/discography"><i
+          id="spoti" class="fa-brands fa-spotify"></i></a></h4>
+    <h4>Youtube de Lab:<a href="https://www.youtube.com/channel/UC-4wFou4yBd3lUwCOjq8_Mg"><i id="you"
+          class="fa-brands fa-youtube"></i></a></h4>
+    <h4>&copy; Copyright 2023 todos los derechos reservados</h4>
+  </footer>
+</body>
+
+</html>
